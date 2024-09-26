@@ -1,0 +1,95 @@
+@charset "UTF-8";
+ 
+@font-face { font-family: 'sriracha'; src: url(Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: 'passion';
+    src: url(PassionOne-Bold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+html, body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+header{
+    
+    background-color: black;
+    color: white;
+    font-family: 'passion';
+    max-height: 269px;
+    max-width: 1369px;   
+    
+    
+
+}
+header h1{
+    padding-top: 50px ;
+    font-family: 'passion';
+    font-size: 50px;
+    font-variant: small-caps;
+    width: 300px;
+    margin: auto;
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+header p{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    
+}
+section{
+    font-family: 'sriracha';
+    font-size: 3.5vw;
+    padding-left: 45px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: white;
+}
+section.img01{
+    background-color: darkgray;
+    
+}
+section.img01 p{
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 600px;
+    padding-left: 20px;
+    
+}
+section.img02{
+    background-color: darkgray;
+    background-image: url(background002.jpg);
+    background-position: right center;
+}
+section.img02 p{
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 600px;
+    padding-left: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+} footer p{
+    text-align: center;
+}
